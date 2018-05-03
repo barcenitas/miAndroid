@@ -1,0 +1,60 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txDolares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="15dp"
+        android:text="Dolares"
+
+        />
+    <EditText
+        android:id="@+id/etDolares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txDolares"
+        android:layout_below="@+id/txDolares"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:id="@+id/txEuros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etDolares"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/etDolares"
+        android:layout_marginTop="20dp"
+        android:text="Euros"
+
+        />
+    <EditText
+        android:id="@+id/etEuros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txEuros"
+        android:layout_below="@+id/txEuros"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEuros"
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    />
+
+</RelativeLayout>
